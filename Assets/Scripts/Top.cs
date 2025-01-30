@@ -35,7 +35,7 @@ public class Top : MonoBehaviour
     private void ShowGameOverView()
     {
         GameOverView.SetActive(true);
-        ScoreText.text = "Score: " + GameManager.gameManager.score;
+        ScoreText.text = "" + GameManager.gameManager.score;
     }
     
 }

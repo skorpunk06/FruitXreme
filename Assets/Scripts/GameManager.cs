@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
         combineFruit.GetComponent<Fruit>().fruitState = FruitState.Collision;
         combineFruit.GetComponent<Rigidbody2D>().gravityScale = 1f;       
         combineFruit.transform.localScale = scale;
-        scoreText.text = "Score: " + score;
+        scoreText.text = "" + score;
         CombineAudio.Play();
     }
 }

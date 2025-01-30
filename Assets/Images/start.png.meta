@@ -1,7 +1,10 @@
 fileFormatVersion: 2
-guid: cc02b351d1a1e4f44a51d7c5bc4aebd0
+guid: 375be0aaee104254e8ce424f67d4a654
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 156717647337856152
+    second: 610-6106398_start-icon-copy-png-download-whatsapp-video-call_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +52,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 6, z: 7, w: 0}
+  spriteBorder: {x: 74, y: 33, z: 74, w: 32}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -65,7 +68,7 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -108,7 +111,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 610-6106398_start-icon-copy-png-download-whatsapp-video-call_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 39
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c9b93bed5cc2200800000000000000
+      internalID: 156717647337856152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      610-6106398_start-icon-copy-png-download-whatsapp-video-call_0: 156717647337856152
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

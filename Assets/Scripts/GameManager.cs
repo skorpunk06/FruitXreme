@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public GameObject[] FruitList;
     public GameObject BornPos;
     public GameObject StartButton;
+	public GameObject RestartButton;
     public GameState gameState;
     public float score = 0f;
     public Text scoreText;
@@ -30,22 +31,20 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(gameState == GameState.GameOver)
-        {
-          
-            if (Input.GetMouseButton(0))
-            {
-                SceneManager.LoadScene("MainScene");
-            }
-        }
     }
+	
     public void StartGame()
     {
         StartButton.SetActive(false);
         gameState = GameState.Ready;
         CreateFruit();
-        
     }
+	
+	public void RestartGame()
+	{
+		SceneManager.LoadScene("MainScene");
+	}
+	
     // randomly generate a fruit from grape to kiwifruit at default position
     public void CreateFruit()
     {       
